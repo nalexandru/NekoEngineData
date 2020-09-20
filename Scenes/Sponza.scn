@@ -1,0 +1,33 @@
+NSCENE2
+
+SceneInfo
+	Name=Sponza
+#	Sun=0.0, 1.0, 0.0
+#	Sky=...
+EndSceneInfo
+
+Entity=Sponza
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=ModelRender
+		Model=/Models/Sponza.glb
+	EndComponent
+EndEntity
+
+Entity=Player
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Camera
+		Active=true
+	EndComponent
+	Component=PlayerMovement
+		MovementSpeed=100
+		RotationSpeed=50
+	EndComponent
+EndEntity
