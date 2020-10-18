@@ -54,3 +54,8 @@ Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+## HDRI
+
+Simon's Town Rocks by Greg Zaal from HDRIHaven
+https://hdrihaven.com/hdri/?c=outdoor&h=simons_town_rocks
