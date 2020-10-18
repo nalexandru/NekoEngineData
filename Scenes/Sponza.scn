@@ -2,6 +2,7 @@ NSCENE2
 
 SceneInfo
 	Name=Sponza
+	EnvironmentMap=/Textures/EnvMap.png
 #	Sun=0.0, 1.0, 0.0
 #	Sky=...
 EndSceneInfo
@@ -29,5 +30,12 @@ Entity=Player
 	Component=PlayerMovement
 		MovementSpeed=100
 		RotationSpeed=50
+	EndComponent
+EndEntity
+
+Entity=Statistics
+	Component=UIContext
+	EndComponent
+	Component=Statistics
 	EndComponent
 EndEntity
