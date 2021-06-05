@@ -1,0 +1,41 @@
+NSCENE2
+
+SceneInfo
+	Name=Main
+	EnvironmentMap=/Textures/EnvMap.png
+#	Sun=0.0, 1.0, 0.0
+#	Sky=...
+EndSceneInfo
+
+Entity=Sponza
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=ModelRender
+		Model=/Models/Sponza.nmesh
+	EndComponent
+EndEntity
+
+Entity=Player
+	Component=Transform
+		Position=0.0, 100.0, -50.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Camera
+		Active=true
+	EndComponent
+	Component=PlayerMovement
+		MovementSpeed=100
+		RotationSpeed=50
+	EndComponent
+EndEntity
+
+Entity=Statistics
+	Component=UIContext
+	EndComponent
+	Component=Statistics
+	EndComponent
+EndEntity

@@ -1,0 +1,14 @@
+{
+	"id": "NeMaterial",
+	"version": 1,
+	"name": "Material_15",
+	"type": "Default",
+	"AlphaCutoff": 0.50,
+	"EmissiveColor": "0.00, 0.00, 0.00",
+	"NormalMap": "/Textures/Sponza/2374361008830720677.png",
+	"Roughness": 1.00,
+	"Metallic": 1.00,
+	"DiffuseColor": "0.59, 0.59, 0.59, 1.00",
+	"DiffuseMap": "/Textures/Sponza/2775690330959970771.dds",
+	"MetallicRoughnessMap": "/Textures/Sponza/7815564343179553343.dds"
+}

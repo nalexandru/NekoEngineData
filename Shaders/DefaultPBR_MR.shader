@@ -6,5 +6,5 @@
 	"modules": [
 		{ "stage": "vertex", "name": "DefaultPBR_VS" },
 		{ "stage": "fragment", "name": "DefaultPBR_MR_FS" },
-	],
+	]
 }

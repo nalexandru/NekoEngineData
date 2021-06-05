@@ -1,0 +1,12 @@
+{
+	"id": "NeMaterial",
+	"version": 1,
+	"name": "Material_2",
+	"type": "Default",
+	"AlphaCutoff": 0.50,
+	"EmissiveColor": "0.00, 0.00, 0.00",
+	"Roughness": 1.00,
+	"Metallic": 0.00,
+	"DiffuseColor": "0.59, 0.59, 0.59, 1.00",
+	"DiffuseMap": "/Textures/Sponza/white.dds"
+}
