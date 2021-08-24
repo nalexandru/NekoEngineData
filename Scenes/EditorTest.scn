@@ -1,0 +1,43 @@
+NSCENE2
+
+SceneInfo
+	Name=EditorTest
+	EnvironmentMap=/Textures/EnvMap.dds
+#	Sun=0.0, 1.0, 0.0
+#	Sky=...
+EndSceneInfo
+
+Entity=Player
+	Component=Transform
+		Position=0.0, 0.0, -0.25
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Camera
+		Active=true
+	EndComponent
+	Component=PlayerMovement
+		MovementSpeed=100
+		RotationSpeed=50
+	EndComponent
+EndEntity
+
+Entity=Statistics
+	Component=UIContext
+	EndComponent
+	Component=Statistics
+	EndComponent
+EndEntity
+
+Entity=KeyLight
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=75.0, 40.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Light
+		Type=Directional
+		Color=1.0, 1.0, 1.0
+		Intensity=10.0
+	EndComponent
+EndEntity
