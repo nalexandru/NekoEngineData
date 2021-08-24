@@ -2,7 +2,7 @@ NSCENE2
 
 SceneInfo
 	Name=Main
-	EnvironmentMap=/Textures/EnvMap.png
+	EnvironmentMap=/Textures/EnvMap.dds
 #	Sun=0.0, 1.0, 0.0
 #	Sky=...
 EndSceneInfo
@@ -37,5 +37,18 @@ Entity=Statistics
 	Component=UIContext
 	EndComponent
 	Component=Statistics
+	EndComponent
+EndEntity
+
+Entity=KeyLight
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=75.0, 0.0, 30.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Light
+		Type=Directional
+		Color=1.0, 1.0, 1.0
+		Intensity=10.0
 	EndComponent
 EndEntity
