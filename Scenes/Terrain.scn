@@ -1,0 +1,51 @@
+NSCENE2
+
+SceneInfo
+	Name=Main
+	EnvironmentMap=/Textures/sky.jpg:cube
+#	Sun=0.0, 1.0, 0.0
+#	Sky=...
+EndSceneInfo
+
+Terrain
+	TileSize=40
+	TileCount=100
+	MaxHeight=10
+	MapFile=/Terrain/Default.tga
+	Material=/Materials/Terrain.mat
+EndTerrain
+
+Entity=Player
+	Component=Transform
+		Position=0.0, 174.0, -50.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Camera
+		Active=true
+	EndComponent
+	Component=FlyController
+		MovementSpeed=100
+		RotationSpeed=500
+	EndComponent
+EndEntity
+
+Entity=Statistics
+	Component=UIContext
+	EndComponent
+	Component=Statistics
+	EndComponent
+EndEntity
+
+Entity=KeyLight
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=45.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Light
+		Type=Directional
+		Color=1.0, 1.0, 1.0
+		Intensity=10.0
+	EndComponent
+EndEntity

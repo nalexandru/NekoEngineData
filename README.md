@@ -9,6 +9,12 @@ https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Sponza
 IBM Plex:
 https://github.com/IBM/plex
 
+Simon's Town Rocks by Greg Zaal from HDRIHaven:
+https://hdrihaven.com/hdri/?c=outdoor&h=simons_town_rocks
+
+Violent Days by Hipshot:
+https://forums.epicgames.com/unreal-tournament-2003-2004/ut2004-level-editing-modeling-skinning/108243-my-skies-and-and-cliff-textures-large-images
+
 ## Licensing notes
 
 Sponza:
@@ -55,7 +61,3 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
-## HDRI
-
-Simon's Town Rocks by Greg Zaal from HDRIHaven
-https://hdrihaven.com/hdri/?c=outdoor&h=simons_town_rocks
