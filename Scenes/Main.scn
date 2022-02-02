@@ -27,9 +27,9 @@ Entity=Player
 	Component=Camera
 		Active=true
 	EndComponent
-	Component=PlayerMovement
+	Component=FlyController
 		MovementSpeed=100
-		RotationSpeed=50
+		RotationSpeed=500
 	EndComponent
 EndEntity
 
@@ -43,12 +43,12 @@ EndEntity
 Entity=KeyLight
 	Component=Transform
 		Position=0.0, 0.0, 0.0
-		Rotation=75.0, 0.0, 30.0
+		Rotation=0.0, 0.0, 0.0
 		Scale=1.0, 1.0, 1.0
 	EndComponent
 	Component=Light
 		Type=Directional
 		Color=1.0, 1.0, 1.0
-		Intensity=10.0
+		Intensity=1.0
 	EndComponent
 EndEntity

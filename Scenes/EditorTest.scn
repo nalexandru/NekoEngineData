@@ -16,7 +16,7 @@ Entity=Player
 	Component=Camera
 		Active=true
 	EndComponent
-	Component=PlayerMovement
+	Component=ScriptFlyController
 		MovementSpeed=100
 		RotationSpeed=50
 	EndComponent
@@ -38,6 +38,23 @@ Entity=KeyLight
 	Component=Light
 		Type=Directional
 		Color=1.0, 1.0, 1.0
+		Intensity=1.0
+	EndComponent
+EndEntity
+
+Entity=PointA
+	Component=Transform
+		Position=0.0, 1.0, 0.0
+		Rotation=45.0, 00.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Light
+		Type=Spot
+		Color=1.0, 1.0, 1.0
 		Intensity=10.0
+		InnerRadius=50.0
+		OuterRadius=100.0
+		InnerCutoff=12.5
+		OuterCutoff=42.5
 	EndComponent
 EndEntity

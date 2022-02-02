@@ -2,7 +2,7 @@ NSCENE2
 
 SceneInfo
 	Name=Main
-	EnvironmentMap=/Textures/sky.jpg:cube
+	EnvironmentMap=/Textures/sky.hdr:flip
 #	Sun=0.0, 1.0, 0.0
 #	Sky=...
 EndSceneInfo
@@ -27,6 +27,12 @@ Entity=Player
 	Component=FlyController
 		MovementSpeed=100
 		RotationSpeed=500
+	EndComponent
+	Component=UIContext
+	EndComponent
+	Component=TestComponent
+	EndComponent
+	Component=ScriptFlyController
 	EndComponent
 EndEntity
 

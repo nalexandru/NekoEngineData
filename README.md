@@ -15,6 +15,12 @@ https://hdrihaven.com/hdri/?c=outdoor&h=simons_town_rocks
 Violent Days by Hipshot:
 https://forums.epicgames.com/unreal-tournament-2003-2004/ut2004-level-editing-modeling-skinning/108243-my-skies-and-and-cliff-textures-large-images
 
+Pine Forest Ground PBR Material:
+https://freepbr.com/materials/pine-forest-ground/
+
+Borghese Gardens HDRI:
+https://polyhaven.com/a/borghese_gardens
+
 ## Licensing notes
 
 Sponza:

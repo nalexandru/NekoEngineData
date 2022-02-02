@@ -3,6 +3,7 @@
 	"version": 1,
 	"name": "Material_3",
 	"type": "Default",
+	"alphaBlend": true,
 	"AlphaCutoff": 0.50,
 	"EmissiveColor": "0.00, 0.00, 0.00",
 	"NormalMap": "/Textures/Sponza/12501374198249454378.png",
