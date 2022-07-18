@@ -1,0 +1,45 @@
+NSCENE2
+
+SceneInfo
+	Name=Sponza
+	EnvironmentMap=/Textures/sky.hdr:flip
+#	Sun=0.0, 1.0, 0.0
+#	Sky=...
+	PostLoad=/Scripts/SpawnBalls.lua
+EndSceneInfo
+
+Entity=Sponza
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=ModelRender
+		Model=/Models/Sponza.nmesh
+	EndComponent
+EndEntity
+
+Entity=Player
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+		Rotation=0.0, 0.0, 0.0
+		Scale=1.0, 1.0, 1.0
+	EndComponent
+	Component=Camera
+		Active=true
+	EndComponent
+	Component=ScriptFlyController
+		MovementSpeed=100
+		RotationSpeed=50
+	EndComponent
+	Component=AudioListener
+	EndComponent
+EndEntity
+
+Entity=Statistics
+	Component=UIContext
+	EndComponent
+	Component=Statistics
+	EndComponent
+EndEntity
+

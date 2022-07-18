@@ -1,0 +1,14 @@
+EntityDef=LightBall
+	Component=Transform
+		Position=0.0, 0.0, 0.0
+	EndComponent
+	Component=Light
+		Type=Point
+		Color=1.0, 0.0, 0.0
+		Intensity=100.0
+		InnerRadius=100.0
+		OuterRadius=200.0
+	EndComponent
+	Component=MovingLight
+	EndComponent
+EndDefinition
