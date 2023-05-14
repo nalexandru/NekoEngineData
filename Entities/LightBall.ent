@@ -6,9 +6,13 @@ EntityDef=LightBall
 		Type=Point
 		Color=1.0, 0.0, 0.0
 		Intensity=100.0
-		InnerRadius=100.0
-		OuterRadius=200.0
+		InnerRadius=50.0
+		OuterRadius=75.0
 	EndComponent
 	Component=MovingLight
+		MaxWidth=1200.0
+		MaxHeight=1200.0
+		MaxDepth=500.0
+		Speed=100.0
 	EndComponent
 EndDefinition

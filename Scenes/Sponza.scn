@@ -36,10 +36,7 @@ Entity=Player
 	EndComponent
 EndEntity
 
-Entity=Statistics
-	Component=UIContext
-	EndComponent
-	Component=Statistics
+Entity=ScriptStat
+	Component=FrameStats
 	EndComponent
 EndEntity
-

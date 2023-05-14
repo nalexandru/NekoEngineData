@@ -1,4 +1,5 @@
-for i = 0, 100, 1
+
+for i = 0, 1999, 1
 do
-	E.CreateEntityS(LoadedScene, "Ball" .. i, "LightBall");
+	LoadedScene:AddEntity("Ball" .. i, "LightBall");
 end

@@ -1,3 +1,0 @@
--- NeComponent MovingLight 1
--- float Direction
--- End
